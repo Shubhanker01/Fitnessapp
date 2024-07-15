@@ -1,0 +1,26 @@
+<h1 class="text-3xl font-bold">Health Challenge Tracker</h1>
+<div>
+    <form action="">
+        <div class="bg-gray-300 w-[200px] rounded-md text-left border-2 border-b-gray-600 ml-[10px]">
+            <label for="username" class="pl-[10px]">Username<sup>*</sup></label>
+            <input type="text" name="username" class="bg-gray-300 pl-[10px] focus:outline-none" required>
+        </div>
+        <div class="bg-gray-300 w-[200px] rounded-md text-left border-2 border-b-gray-600 ml-[10px]">
+            <label for="workout" class="pl-[10px]">Workout Type</label>
+            <br>
+            <select name="workout" class="focus:outline-none bg-gray-300 w-[180px] pl-[8px]">
+                <option>Running</option>
+                <option>Cycling</option>
+                <option>Rowing</option>
+            </select>
+
+        </div>
+        <div>
+            <div class="bg-gray-300 w-[200px] rounded-md text-left border-2 border-b-gray-600 ml-[10px]">
+                <label for="username" class="pl-[10px]">Workout Minutes<sup>*</sup></label>
+                <input type="number" name="username" class="bg-gray-300 pl-[10px] focus:outline-none" min="0" required>
+            </div>
+        </div>
+        <button class="bg-slate-200 p-2 rounded-full text-blue-600" id="btn">Add Workout</button>
+    </form>
+</div>
